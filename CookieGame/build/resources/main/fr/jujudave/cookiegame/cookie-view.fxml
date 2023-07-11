@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="350.0" prefWidth="500.0" spacing="20.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.jujudave.cookiegame.Controller">
+    <GridPane prefHeight="257.0" prefWidth="310.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="181.0" minHeight="10.0" prefHeight="181.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="137.0" minHeight="10.0" prefHeight="14.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <StackPane>
+
+            <Button focusTraversable="false" onAction="#onClick" opacity="0.0" prefHeight="111.0" prefWidth="122.0" />
+            <ImageView fx:id="cookieImage" fitHeight="132.0" fitWidth="132.0" mouseTransparent="true" preserveRatio="true">
+                <Image url="@../../../image/cookie.png" />
+            </ImageView>
+        </StackPane>
+        <Label fx:id="numberText" alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="132.0" text="0" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.vgrow="NEVER">
+<font>
+    <Font name="Arial" size="23.0" />
+</font>
+        </Label>
+    </GridPane>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+
+</VBox>

@@ -1,0 +1,17 @@
+47 algues 4 ans
+49 algues 6 ans
+51 algues 8 ans
+56 algues 13 ans
+64 algues 15 ans
+76 algues 20 ans
+
+Noemie, Sole, FEMALE, 20
+Lou, Thon, FEMALE, 16
+Nemo, PoissonClown, MALE, 18
+Lucas, Carpe, MALE, 14
+Manon, PoissonClown, FEMALE, 9
+Marin, Sole, MALE, 9
+Axel, Thon, FEMALE, 7
+Maxime, Sole, FEMALE, 2
+Tom, Sole, FEMALE, 0
+Mohamed, PoissonClown, MALE, 0
