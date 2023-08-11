@@ -39,12 +39,4 @@ public class Game {
             start();
         }
     }
-
-    public void setPlayer(Player player) {
-        this.player = player;
-    }
-
-    public Player getPlayer() {
-        return player;
-    }
 }
